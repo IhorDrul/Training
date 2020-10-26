@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background: lightgrey;
+}
+
+.main-head{
+    background-image: url(../img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.first1{
+    display:inline-block;
+}
+.first1 p{
+    color:white;
+    padding: 30px;
+
+}
+nav{
+    float:right;
+    margin-top:30px;
+}
+nav a{
+    
+    text-decoration: none;
+    color:white;
+    padding:30px;
+    padding-top:30px;
+    
+}
+
+.hcenter{
+    display:flex;
+    justify-content: center;
+    color:white;
+
+}
+
+.hcenter h1{
+    font-size:200%;
+    letter-spacing: 5px;
+    font-weight:normal;
+}
+.hcenter span{
+    font-size:220%;
+}
+
+.big-div{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.navigation2 {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:145px;
+}
+
+.navigation2 a{
+    text-decoration: none;
+    color:white;
+    border:1px solid white;
+    padding:8px 50px;
+    background: rgb(0,0,0,0.3);
+}
+
+.bot-inf{
+    background-color: black;
+    color:white;
+    display:flex;
+}
+
+
+.bot-inf div{
+    width:50%;
+    
+}
+
+#first-div{
+    padding-top:100px;
+    padding-left:20px;
+}
+
+#second-div{
+    padding-right:20px;
+}
+
+.first-mega-div{
+    background:lightgrey;
+}
+
+.maintitle p{
+    text-align: center;
+    font-size:200%;
+}
+
+.blabla{
+    display:flex;
+}
+.blabla section{
+    width:50%;
+}
+
+.second-col{
+    text-align: center;
+}
+
+.second-col div{
+    padding:20px 40px;
+}
+
+.like{
+    display:inline-block;
+    margin:8px;
+    float:right;
+    border: 1px solid white;
+    color:white;
+}
+
+.infotxt{
+    position: absolute;
+    bottom: 0px;
+    color:white;
+    font-size:75%;
+}
+.div-img{
+    margin:20px 40px;
+    padding-right:0;
+    background-image: url(../img/sample.jpg);
+    background-size:100%;
+    width:100%;
+    height: auto;
+    position: relative;
+}
+
+.collums{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:30px;
+}
+.collums div{
+    width: 20%;
+}
+
+.btn{
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align: center;
+    width:100%;
+    background:seagreen;
+    color:white;
+    border:none;
+    margin-top:8px;
+}
+
+.exp-div{
+    margin-top:30px;
+    border:1px solid lightgrey;
+    padding:20px;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.div-with-sub{
+    background: lightgrey;
+    padding:30px 15px;
+    
+}
+
+.sub-form p{
+    display:inline-block;
+}
+
+.sub-form{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.sub-form form {
+    float: right;
+}
+
+.email, .subs{
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+.email{
+    color:black;
+    background: lightgrey;
+    border:1px solid black;
+    width: 110px;
+}
+
+.subs{
+    border:none;
+    color:white;
+    background: seagreen;
+    
+}
+
+.info{
+    padding:100px 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.info-div{
+    width:20%;
+    
+}
+
+.info-div p{
+    color:grey;
+}
+
+.info-div h3{
+    padding-bottom:10px;
+}
+#hours{
+    color:lightgrey;
+}
+
+footer{
+    padding:10px 0;
+    margin:0 30px;
+    border-top:1px solid lightgrey;
+    color:grey;
+    font-size:75%;
+}
+
+footer p{
+    display:inline-block;
+}
+
+.navigation3{
+    float:right;
+}
+
+.navigation3 a{
+    text-decoration: none;
+    color:black;
+    padding-left:6px;
+}

@@ -1,0 +1,43 @@
+/* Your styles goes here */
+
+.head{
+    text-align:center;
+}
+
+.root{
+    margin:0 200px;
+    border:1px solid black;
+    padding:50px;
+}
+
+.nav-input{
+    margin: 0 10px;
+    width: 93%;
+}
+
+.btn-nav, .delete-btn{
+    background-color: white;
+    padding: 0;
+    border: none;
+    float:right;
+}
+
+.btn-nav i{
+    height: 105%;
+}
+
+.div-2{
+    clear:both;
+}
+
+.checkboxes {
+    margin:10px 10px;
+}
+footer{
+    text-align: center;
+    height: 30vh;
+}
+footer img{
+    width:10%;
+    margin-top:20vh;
+}
